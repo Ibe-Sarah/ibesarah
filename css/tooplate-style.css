@@ -527,9 +527,11 @@ gap: 1em;
   }
 
   .navbar-collapse {
-    background: #ffffff;
-    text-align: center;
+    background: #ffc200;
+    text-align: left;
     padding-bottom: 20px;
+    width: 20% !important;
+    border-radius: 15px;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -537,9 +539,18 @@ gap: 1em;
   }
 }
 @media (max-width: 580px) {
+
+  .animated{
+    margin-top: -1em;
+  }
 	.animated-info {
 		min-width: 200px;
 	}
+
+  .social-links{
+    margin-left: -2em;
+    gap: 1em !important;
+  }
   .animated-item {
     font-size: 30px;
     width: 120% !important;
