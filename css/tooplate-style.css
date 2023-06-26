@@ -527,13 +527,19 @@ gap: 1em;
   }
 
   .navbar-collapse {
-    background: #ffc200;
+    background: #474559;
     text-align: left;
+    padding-top: 30px;
+    color: white !important;
     padding-bottom: 20px;
     width: 20% !important;
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    height: 10em !important;
   }
 
+  .navbar-collapse span{
+    color: white;
+  }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
